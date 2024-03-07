@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>como resolver erros no uso do git</title>
+    <h1>Se você fez um git add . para adicionar todas as alterações ao índice (staging area), mas ainda não fez o commit, 
+        e depois fez mais alterações, você tem algumas opções:</h1><br/>
+    <h2> caso 1- Commit as Alterações Anteriores: </h1>
+    <h4>
+        Se as alterações que você adicionou anteriormente são independentes das 
+        alterações mais recentes, você pode simplesmente fazer um commit das 
+        alterações anteriores antes de adicionar as novas alterações.
+        git commit -m "Mensagem do commit para as alterações anteriores"
+    </h4>
+
+    <h3> Adicione Novas Alterações: </h3> 
+    <H4>Após fazer o commit das alterações anteriores, você pode adicionar as novas alterações usando 
+        git add . novamente ou especificando os arquivos 
+        individualmente.
+        git add .
+    </H4>
+
+    <h2>Combine Todas as Alterações em um Único Commit:</h2>
+    <h3>
+        Se preferir, você pode combinar todas as alterações em um único commit. 
+        Isso incluirá as alterações anteriores e as mais recentes.
+        git add .
+        git commit -m "Mensagem que inclui todas as alterações"
+    </h3>
+
+<a href="https://www.youtube.com/watch?v=_hZf1teRFNg"> link para aula do git</a>
+</head>
+<body>
+    
+</body>
+</html>
